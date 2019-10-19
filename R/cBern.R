@@ -25,9 +25,7 @@
 #' @export
 #'
 #' @references
-#' Jiang, W., Song, S.,  Hou, L. and Zhao, H. CorBin: An efficient R package to generate
-#'high-dimensional binary data with correlation
-#'structures. \emph{Submitted to Journal of Statistical Software}.
+#' Jiang, W., Song, S.,  Hou, L. and Zhao, H. A set of efficient methods to generate high-dimensional binary data with correlation structures. \emph{Submitted}.
 #'
 #' @examples
 #' X <- cBern(10, rep(0.5,3), 0.5, type="exchange")

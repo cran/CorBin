@@ -47,9 +47,7 @@ rho[[2]] <- 0.1
 X <- cBern(2, c(0.7,0.8,0.9),rho=rho,type="General", k=2)
 }
 \references{
-Jiang, W., Song, S.,  Hou, L. and Zhao, H. CorBin: An efficient R package to generate
-high-dimensional binary data with correlation
-structures. \emph{Submitted to Journal of Statistical Software}.
+Jiang, W., Song, S.,  Hou, L. and Zhao, H. A set of efficient methods to generate high-dimensional binary data with correlation structures. \emph{Submitted}.
 }
 \seealso{
 \code{\link{cBernEx}}, \code{\link{cBernDCP}}, \code{\link{cBern1dep}}

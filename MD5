@@ -1,6 +1,6 @@
-669aaecb92941633351dec8dda95737a *DESCRIPTION
+3ffd0b333023a6d361214efa2e26e0ba *DESCRIPTION
 58c0118b7ba9f991a03f281d239f109a *NAMESPACE
-ed4a63b50a378eeff171b5310effae02 *R/cBern.R
+a1a3b3c7bc1af460ab348e3354cc6ed4 *R/cBern.R
 499d54f3836e0da2e68d1e2fd0377a36 *R/cBern1dep.R
 665ab05a603add2d7dacbd95037d4368 *R/cBernAR_single.R
 0cd128bad0942aaf1c9e8afe89139f2b *R/cBernDCP.R
@@ -15,7 +15,7 @@ c19c776f953c5c2984b3c7fb4575b09e *R/rhoMaxDCP.R
 884c33591bf46ad8aaf0c5c9a6514684 *R/rhoMaxEx.R
 b63e6d49c7fa8ce3f2d18616ebff488e *R/rhoMaxMdep.R
 6cf437105e31035fd9f1ad3ca1089b6e *R/rhoMaxMdep1.R
-a3002b079a34753a513f3c80141d209a *man/cBern.Rd
+f1b0ef3255615c80fced87a906585cdf *man/cBern.Rd
 fdaad0fc540accd830e4a1b1053d2b03 *man/cBern1dep.Rd
 9f363057062d9b15af60442e9fa58f00 *man/cBernDCP.Rd
 fd7dcfd9817c2d8994539c8c38f9804c *man/cBernEx.Rd
