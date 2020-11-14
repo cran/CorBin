@@ -10,6 +10,9 @@
 
 rhoMaxDCP <- function(p){
   m <- length(p)
+  if(m==1){
+    return(1)
+  }else{
   rholimit <- rep(1,m-1)
   for (i in 1:(m-1)){
     p1 <- min(p[i],p[i+1])
@@ -17,7 +20,7 @@ rhoMaxDCP <- function(p){
     rholimit[i] <- sqrt(p1*(1-p2)/(1-p1)/p2)
   }
   return(rholimit)
-}
+}}
 # rhoMaxAR(c(0.5,0.6,0.5,0.3))
 
 

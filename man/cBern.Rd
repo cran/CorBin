@@ -47,7 +47,7 @@ rho[[2]] <- 0.1
 X <- cBern(2, c(0.7,0.8,0.9),rho=rho,type="General", k=2)
 }
 \references{
-Jiang, W., Song, S.,  Hou, L. and Zhao, H. A set of efficient methods to generate high-dimensional binary data with correlation structures. \emph{Submitted}.
+Jiang, W., Song, S.,  Hou, L. and Zhao, H. A set of efficient methods to generate high-dimensional binary data with specified correlation structures. \emph{The American Statistician}. DOI:10.1080/00031305.2020.1816213
 }
 \seealso{
 \code{\link{cBernEx}}, \code{\link{cBernDCP}}, \code{\link{cBern1dep}}

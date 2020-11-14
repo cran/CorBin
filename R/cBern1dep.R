@@ -34,7 +34,7 @@ cBern1dep <- function(n, p, rho){
       return(res)
     }
     else{
-      warning("Invlid Input: Please adjust the setting of rho according to the instructions.")
+      warning("Invalid Input: Please adjust the setting of rho according to the instructions.")
     }
   }
 }

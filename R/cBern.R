@@ -25,7 +25,7 @@
 #' @export
 #'
 #' @references
-#' Jiang, W., Song, S.,  Hou, L. and Zhao, H. A set of efficient methods to generate high-dimensional binary data with correlation structures. \emph{Submitted}.
+#' Jiang, W., Song, S.,  Hou, L. and Zhao, H. A set of efficient methods to generate high-dimensional binary data with specified correlation structures. \emph{The American Statistician}. DOI:10.1080/00031305.2020.1816213
 #'
 #' @examples
 #' X <- cBern(10, rep(0.5,3), 0.5, type="exchange")

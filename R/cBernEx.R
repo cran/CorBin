@@ -29,7 +29,7 @@ cBernEx <- function(n, p, rho){
   rhoLimit<-sqrt((minP/(1-minP))/(maxP/(1-maxP)))
   rhoLimit1 <- floor(rhoLimit*10000)/10000
   if((rho<0) || (rho>rhoLimit)){
-    message(paste('The range of rho should be [',0,',',rhoLimit1,']', sep=''))
+    message(paste('The non-negative Prentice constraint for rho is [',0,',',rhoLimit1,']', sep=''))
     warning('rho is out-of-range\n')
     return(NaN)
   }

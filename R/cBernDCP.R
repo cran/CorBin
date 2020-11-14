@@ -14,7 +14,7 @@
 #'
 cBernDCP <- function(n, p, rho){
   m <- length(p)
-  if(sum((p==0) | (p==1))>0) {
+  if(sum((p<=0) | (p>=1))>0) {
     warning("The range of p should be (0, 1).\n")
     return(NaN)
   }
@@ -23,16 +23,16 @@ cBernDCP <- function(n, p, rho){
     return(NaN)
   }
   if(length(rho)==1){
-    rho <- rep(rho,m-1)
+    rho <- rep(rho,max(1,m-1))
   }
   rholimit <- rhoMaxDCP(p)
   rholimit1 <- min(rholimit)
   rholimit2 <- floor(rholimit1*10000)/10000
   temp <- rholimit-rho
   if(length(which(temp<0))>0){
-    message(paste('The smallest valid range of rho is [',0,',',rholimit2,']', sep=''))
+    message(paste('The non-negative Prentice constraint for rho is [',0,',',rholimit2,']', sep=''))
+    message('For detailed valid range, please use rhoMaxAR(p) to get the upper bound of each element in rho.')
     warning('rho is out-of-range')
-    message('For detailed valid range, please use rhoMaxAR(p) to get the accuarate upbound of each element in rho.')
     return(NaN)
   }
   else{
